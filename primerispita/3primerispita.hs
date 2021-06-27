@@ -4,7 +4,7 @@ uplati :: [(String, Int)] -> String -> Int -> [(String, Int)]
 
 
 otvori b br
-	| filter (\(x,y) -> x == br) b /= [] = b
+	| (filter (\(x,y) -> x == br) b) /= [] = b
 	| otherwise = (br, 0) : b
 
 {-
