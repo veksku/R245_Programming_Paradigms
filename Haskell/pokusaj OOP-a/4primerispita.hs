@@ -1,11 +1,6 @@
 module Lib where
 
-data Transakcija = MkTransakcija { ident :: Int
-																 , iznos :: Int
-																 , posiljalac :: String
-																 , primalac :: String
-																 }
-																 deriving (Show, Eq)
+data Transakcija = MkTransakcija { ident :: Int, iznos :: Int, posiljalac :: String, primalac :: String} deriving (Show, Eq)
 												
 {- ako nema deriving Show onda npr
 instance Show Transakcija where
