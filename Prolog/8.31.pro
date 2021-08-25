@@ -36,3 +36,6 @@ kuce(L):-
 
 
 zagonetka(X,Y):- kuce(L), clan(k(_,X,_,_,zebra), L), clan(k(_,Y,_,voda,_),L).
+
+prevede se sa cl('imeprograma.pro')
+resenje se prikaze onda koristeci zagonetka(X,Y)
