@@ -12,3 +12,6 @@ pekara(Vars) :- Vars = [H, K],
 	write('Maks zarada od '), write(Zarada), write(' dinara se ostvaruje za '),
 	write(H), write(' komada hleba i '), write(K), write(' komada kifli.'), nl,
 	write('Vreme potrebno za ovo sve je bilo: '), write(Vreme), write(' minuta.'),nl.
+	
+prevede se sa cl('imeprograma.pro')
+pokrene se sa pekara(Vars)
