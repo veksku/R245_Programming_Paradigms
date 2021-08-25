@@ -2,17 +2,19 @@ module Lib where
 
 data Transakcija = MkTransakcija { ident :: Int, iznos :: Int, posiljalac :: String, primalac :: String} deriving (Show, Eq)
 												
-{- ako nema deriving Show onda npr
+{- 
+
+ako nema deriving Show onda npr
 instance Show Transakcija where
 	show (MkTransakcija ident iznos posiljalac primalac) =
 	"[" ++ show ident ++ " " ++ show iznos ++ " " ++ show posiljalac ++ " " ++ show primalac ++ "]"
--}			
 
-{- ako nema deriving Eq onda npr
+ako nema deriving Eq onda npr
 instance Eq Transakcija where
 	(==) (MkTransakcija ident1 iznos1 posiljalac1 primalac1) (MkTransakcija ident1 iznos1 posiljalac1 primalac1) = 
 	ident1 == ident2 
 	(ovde je sasvim ok jer iden je kao jedinstveni ID, za dodatke koristiti && i ||)
+	
 -}		
 
 
