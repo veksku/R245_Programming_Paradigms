@@ -1,10 +1,14 @@
-
+#naci max broj proteina pod sledecim uslovima
+#
 #masti < 500
 #secer < 150
 #
 #b,p,j,m,v,n
 #
-#b: cena-30	br-10		masti-30	secer-5
+#broj proteina:
+#b=20 p=15 j=70 m=40 v=23 n=7
+#
+#b: cena-30		br-10		masti-30	secer-5
 #p: cena-300	br-20		masti-10	secer-30
 #j: cena-50 	br-7 		masti-150	secer-2
 #m: cena-170 	br-5 		masti-32	secer-15
