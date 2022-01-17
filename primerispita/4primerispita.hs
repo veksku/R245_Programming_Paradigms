@@ -24,7 +24,7 @@ ukupno :: AktivneTransakcije -> Int
 ukupno [] = 0
 ukupno (x:xs) = (iznos x) + ukupno xs
 
-
+ 
 --izlistaj [MkTransakcija 5 6 "baba" "deda", MkTransakcija 2 738 "jovan" "milan"] "deda"
 --dodaj [MkTransakcija 5 6 "baba" "deda", MkTransakcija 2 738 "jovan" "milan"] (MkTransakcija 1 27 "kuku" "lele")
 --ukloni [MkTransakcija 5 6 "baba" "deda", MkTransakcija 2 738 "jovan" "milan"] 2
