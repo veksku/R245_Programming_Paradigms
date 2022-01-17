@@ -24,7 +24,7 @@ object cars {
         (acc1, acc2) => (acc1._1 + acc2._1, acc1._2 + acc2._2))
       .map(r => r._2._1 / r._2._2) //oblika je (kljuc, (zbir, brojac))
       .foreach(r => println(r))
-    //    val cache = context.textFile("cars.csv")
+//    val cache = context.textFile("cars.csv")
 //      .filter(linija => linija.contains("AWD") && linija.contains("Gasoline") && linija.contains("Automatic"))
 //      .filter(linija => (linija.contains("5 Speed Automatic") || linija.contains("6 Speed Automatic")))
 //      .map(linija => {
